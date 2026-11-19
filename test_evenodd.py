@@ -1,4 +1,4 @@
-from even_odd import check_even_odd
+from evenodd import check_even_odd
 
 def test_evennumbers():
     assert check_even_odd(4) == "even"
