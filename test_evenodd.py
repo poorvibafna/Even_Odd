@@ -7,5 +7,5 @@ def test_evennumbers():
 
 def test_odd_numbers():
     assert check_even_odd(3) == "odd"
-    assert check_even_odd(9) == "even"
-    assert check_even_odd(13) == "even"
+    assert check_even_odd(9) == "odd"
+    assert check_even_odd(13) == "odd"
