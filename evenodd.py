@@ -1,4 +1,4 @@
-
+import sys
 def check_even_odd(num):
     if num % 2 == 0:
         return "even"
@@ -6,5 +6,5 @@ def check_even_odd(num):
         return "odd"
 
 if __name__ == "__main__":
-    num = int(input("Enter a number: "))
+    num = int(sys.argv[1])
     print(check_even_odd(num))
